@@ -34,10 +34,7 @@ header .overlay {
 }
 
 .heading {
-  position: absolute; /* PRZESUWA SIĘ */
-  /* + z-index = -2 - NIE przesuwa się */
-  /* position: fixed;
-  z-index: -2; */
+  position: absolute; 
   margin: 9.8rem auto;
   color: var(--color-red);
   font-family: "Exo 2", sans-serif;
