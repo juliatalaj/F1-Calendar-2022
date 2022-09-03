@@ -1,13 +1,21 @@
+:root {
+  --color-red: rgb(239, 68, 68);
+  --color-darkblue: rgb(30, 41, 59);
+  --color-lightblue: rgb(73, 85, 167);
+  --color-lightgrey: rgb(206, 221, 250);
+  --color-darkergrey: rgb(189, 203, 232);
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #1e293b;
+  background-color: var(--color-darkblue);
 }
 
 h1 {
   text-align: center;
   margin-top: 2rem;
-  color: #ef4444;
+  color: var(--color-red);
   font-size: 6rem;
   font-family: "Exo 2", sans-serif;
   text-shadow: 4px 8px 10px rgb(15, 21, 30, 0.2);
@@ -38,8 +46,8 @@ h1 {
   padding: 0 1rem;
   font-size: 1.5rem;
   font-family: "Work Sans", sans-serif;
-  background-color: #ceddfa;
-  color: #1e293b;
+  background-color: var(--color-lightgrey);
+  color: var(--color-darkblue);
   list-style: none;
   box-shadow: 0px 8px 40px rgb(6, 20, 49 / 20%);
   border-radius: 6px;
@@ -49,7 +57,7 @@ h1 {
 }
 
 #calendar li.darker-color {
-  background-color: #bdcbe8;
+  background-color: var(--color-lightblue);
 }
 
 #calendar li:hover {
@@ -70,7 +78,7 @@ div.race-date p:nth-of-type(1) {
   font-weight: 600;
 }
 div.race-date p:nth-of-type(2) {
-  color: #4955a7;
+  color: var(--color-darkergrey);
 }
 
 @media (max-width: 1100px) {
